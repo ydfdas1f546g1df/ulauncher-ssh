@@ -97,7 +97,7 @@ class KeywordQueryEventListener(EventListener):
         items = []
         arg = event.get_argument()
         hosts = extension.parse_ssh_config()
-        hosts += extension.parse_known_hosts()
+        #hosts += extension.parse_known_hosts()
 
         hosts.sort()
 
